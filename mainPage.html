@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="mainPage.css"/>
+  <title> vladCarTips </title>
+</head>
+
+
+<body>
+  <div class="grid">
+    <div class ="header" id="sus">
+      <h1> vladCarTips </h1>
+      <div id="headerRight">
+        <a class="log" href="loginPage.html"> Inregistrare / Autentificare </a>
+        <span id="time"> </span>
+      </div>
+    </div>
+
+    <div class="left" id="stanga">
+      <h3> Care este masina care vi se potriveste?</h3>
+      <h3> Apasati pe buton pentru a afla </h3>
+      <div id="afisareMasina">
+        <button id="stopCycling"> Stop </button>
+        <img id="rotator" src="carImage1.jpg" alt="rotImg">
+        <div id="infoDiv">
+        </div>
+      </div>
+    </div>
+
+    <div class="article" id="articol">
+      <h2> Car Picks Of The Week </h2>
+      <a href="article1.html">
+        <div class="masina">
+          <h3> Porsche 718 Cayman GTS 4.0 - inapoi la origini </h3>
+          <div class="masinaFlex">
+            <img src="caymanThumbnail.jpg" alt="thumb1">
+            <p> Intr-un final, Porsche relanseaza modelul 718 cu un motor in 6 cilindri, fata de cei 4 aflati in modelele de baza si S. Oare este diferenta atat de mare? </p>
+          </div>
+        </div>
+      </a>
+      <a href="article2.html">
+        <div class="masina">
+          <h3> Porsche 911 992 Carrera S - flagship-ul brandului Porsche se intoarce</h3>
+          <div class="masinaFlex">
+            <img src="carreraThumbnail.jpg" alt="thumb2">
+            <p> Flagship-ul Porsche, cel mai popular model al lor se intoarce si este mai atractiv ca oricand.</p>
+          </div>
+        </div>
+      </a>
+      <a href="article3.html">
+        <div class="masina">
+          <h3> BMW M4 Competition - noul coupe de la BMW in cea mai puternica configuratie </h3>
+          <div class="masinaFlex">
+            <img src="m4Thumbnail.jpg" alt="thumb3">
+            <p> Noul M4 pare sa fie un model controversat din cauza noilor grile de tip "rinichi" ce sunt acum si mai mari. Poate ca cei 510 cai putere vor putea face grilele "aceptabile".</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="right" id="dreapta">
+      <h3> Aveti banii necesari pentru a cumpara masina, dar nu sunteti sigur ca puteti sa o intretineti? </h3>
+      <h3> Utilizati calculatorul nostru pentru impozitul auto </h3>
+      <label>
+        Introduceti capacitatea cilindrica:
+        <input class="input" type="number" id="cc" required />
+      </label>
+      <button id="impozitCalcul"> Calculeaza </button>
+      <div id="impozitRezultat"> </div>
+      <script src="mainScript.js"> </script>
+    </div>
+  </div>
+</body>
+
+
+
+</html>

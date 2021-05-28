@@ -1,0 +1,143 @@
+html {
+  font-family: Menlo;
+  color: white;
+}
+
+body {
+  background-image: url(backgroundArticle2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header a {
+  text-decoration: none;
+  color: #ed1363;
+  font-weight: bolder;
+}
+
+.grid {
+  grid-template-areas:
+    'header'
+    'article';
+}
+
+.header,
+.article {
+  background: #279be3;
+  padding: 1em;
+  opacity: 0.7;
+}
+
+
+
+.article {
+  border-style: inset;
+  grid-area: article;
+  border-radius: 35px 15px;
+  opacity: 0.86;
+}
+
+.header {
+  grid-area: header;
+  top: 0;
+  z-index: 100;
+  position: sticky;
+  display: block;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 15px 35px;
+  border-style: outset;
+}
+
+h1 {
+  display:inline;
+}
+
+h3 {
+  font-style: italic;
+}
+
+#italic {
+  font-family: Menlo;
+  font-weight: bolder;
+  font-size: 15px;
+  width: 30%;
+  background: transparent;
+  border-style: inset;
+  border-radius: 15px 35px;
+  padding: 0 10px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #256bdb;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.img {
+  width: 100%;
+  border-radius: 15px 35px;
+}
+
+#headerRight {
+  float:right;
+  display: flex;
+}
+
+.dropbtn {
+  background-color: #256bdb;
+  color: white;
+  padding: 16px;
+  font-family: monospace, "Menlo";
+  font-size: 16px;
+  border: none;
+  border-radius: 35px 15px;
+  width:100%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+p::before {
+  content: ">";
+}
+
+.continut {
+  display: none;
+  position: absolute;
+  background-color: orange;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  border-radius: 15px 15px;
+}
+
+.continut a {
+  color: black;
+  padding: 15px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: monospace, "Menlo";
+}
+
+.dropdown:hover .continut
+{
+  display: block;
+  border-radius: 15px 15px;
+}
+
+.dropdown:hover .dropbtn
+{
+  background-color: #053685;
+}
+
+.continut a:hover
+{
+  background-color: beige;
+  font-weight: bolder;
+}

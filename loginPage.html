@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="loginPage.css"/>
+  <title> vladCarTipsLogin </title>
+</head>
+
+
+<body>
+
+  <div class ="header">
+    <a href="mainPage.html"> <h1> vladCarTips </h1> </a>
+    <div id="headerRight">
+      <a class="log" href="loginPage.html"> Inregistrare / Autentificare </a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="card">
+      <div class="interior" id="card">
+        <div class="fata">
+           <h2> Login </h2>
+           <form>
+             <input type="email" class="input" id="loginEmail" placeholder="Introduceti e-mailul aici" required>
+             <input type="password" class="input" id="loginPass" placeholder="Introduceti parola aici" required>
+             <button type="btn" class="submit" id="loginSubmit"> Continuati </button>
+             <button type="btn" class="register" onclick="openReg()"> Nu am cont inca </button>
+           </form>
+        </div>
+        <div class="spate">
+          <h2> Register </h2>
+          <form>
+            <input type="text" id="name" class="input" placeholder="Introduceti numele aici" required>
+            <input name="email" type="email" id="registerMail" class="input" placeholder="Introduceti e-mailul aici" required>
+            <input type="password" name="password" id="registerPass" class="input" placeholder="Introduceti parola aici" required>
+            <button type="submit" class="submit" id="registerSubmit"> Continuati </button>
+            <button type="register" class="register" onclick="openLogin()"> Am deja cont</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="login.js"> </script>
+
+</body>
+
+
+
+</html>

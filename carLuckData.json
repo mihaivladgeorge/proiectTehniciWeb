@@ -1,0 +1,74 @@
+{
+  "cars": [
+    {
+      "carName": "Porsche 718 Cayman S",
+      "engineCapacity": "2.5l",
+      "year": "2017",
+      "gasType": "Benzina",
+      "carImage": "http://192.168.1.25:8080/carImage1.jpg"
+    },
+    {
+      "carName": "BMW 330d",
+      "engineCapacity": "3.0l",
+      "year": "2021",
+      "gasType": "Motorina",
+      "carImage": "http://192.168.1.25:8080/carImage2.jpg"
+    },
+    {
+      "carName": "Dacia Sandero",
+      "engineCapacity": "1.4l",
+      "year": "2008",
+      "gasType": "Benzina",
+      "carImage": "http://192.168.1.25:8080/carImage3.jpg"
+    },
+    {
+      "carName": "Renault Kadjar",
+      "engineCapacity": "1.5l",
+      "year": "2020",
+      "gasType": "Motorina",
+      "carImage": "http://192.168.1.25:8080/carImage4.jpg"
+    },
+    {
+      "carName": "Fiat 500",
+      "engineCapacity": "0.5l",
+      "year": "1960",
+      "gasType": "Benzina",
+      "carImage": "http://192.168.1.25:8080/carImage5.jpg"
+    },
+    {
+      "carName": "Ferrari 458 Italia",
+      "engineCapacity": "4.5l",
+      "year": "2014",
+      "gasType": "Benzina",
+      "carImage": "http://192.168.1.25:8080/carImage6.jpg"
+    },
+    {
+      "carName": "Porsche 991 911 GT3",
+      "engineCapacity": "3.8l",
+      "year": "2015",
+      "gasType": "Benzina",
+      "carImage": "http://192.168.1.25:8080/carImage7.jpg"
+    },
+    {
+      "carName": "Renault Vel Satis",
+      "engineCapacity": "2.0l",
+      "year": "2005",
+      "gasType": "Motorina",
+      "carImage": "http://192.168.1.25:8080/carImage8.jpg"
+    },
+    {
+      "carName": "Mitsubishi Lancer Evo VII",
+      "engineCapacity": "2.0l",
+      "year": "2001",
+      "gasType": "Benzina",
+      "carImage": "http://192.168.1.25:8080/carImage9.jpg"
+    },
+    {
+      "carName": "Mercedes AMG GT",
+      "engineCapacity": "4.0l",
+      "year": "2019",
+      "gasType": "Benzina",
+      "carImage": "http://192.168.1.25:8080/carImage10.jpeg"
+    }
+  ]
+}
